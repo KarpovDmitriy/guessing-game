@@ -2125,23 +2125,23 @@ describe('GuessingGame', () => {
       const game = new GuessingGame();
       game.setRange(0, 6562);
 
-      let result = game.guess();
+      let result = game.guess(); // 3283
       game.lower();
-      result = game.guess();
+      result = game.guess(); // 1642
       game.lower();
-      result = game.guess();
+      result = game.guess(); // 821
       game.lower();
-      result = game.guess();
+      result = game.guess(); // 411
       game.lower();
-      result = game.guess();
+      result = game.guess(); // 206
       game.lower();
-      result = game.guess();
+      result = game.guess(); // 103
       game.lower();
-      result = game.guess();
+      result = game.guess(); // 52
       game.lower();
-      result = game.guess();
+      result = game.guess(); // 26
       game.greater();
-      result = game.guess();
+      result = game.guess(); // 39
       game.lower();
       result = game.guess();
 
